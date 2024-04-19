@@ -1,0 +1,23 @@
+.card{
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%,0.1);
+    max-width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    z-index: 1000;
+}
+
+.imageLink{
+    max-width: 200px;
+    height: auto;
+
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
