@@ -1,9 +1,9 @@
-import ArrayObject from './Components/ObjectUpdate/ArrayObject';
+import UseEffect from "./Components/UseEffect/UseEffect";
 
 export default  function App(){
   return (
    <>
-    <ArrayObject></ArrayObject>
+   <UseEffect></UseEffect>
    </>
   );
 }
