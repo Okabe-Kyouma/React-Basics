@@ -1,9 +1,9 @@
-import UseEffect from "./Components/UseEffect/UseEffect";
+import A from "./Components/UseContext/A";
 
 export default  function App(){
   return (
    <>
-   <UseEffect></UseEffect>
+    <A></A>
    </>
   );
 }

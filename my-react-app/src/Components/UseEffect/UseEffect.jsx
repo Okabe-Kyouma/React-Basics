@@ -14,6 +14,8 @@ export default function UseEffect(){
 
          return()=>{
             //cleanup code.
+            window.removeEventListener("resize",handleResize);
+            
          }
 
      },[]);
